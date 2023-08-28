@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		51100CF6299FE89A00AF9A3C /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51100CF5299FE89A00AF9A3C /* ScrumdingerApp.swift */; };
-		51100CF8299FE89A00AF9A3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51100CF7299FE89A00AF9A3C /* ContentView.swift */; };
+		51100CF8299FE89A00AF9A3C /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51100CF7299FE89A00AF9A3C /* MeetingView.swift */; };
 		51100CFA299FE89C00AF9A3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51100CF9299FE89C00AF9A3C /* Assets.xcassets */; };
 		51100CFD299FE89C00AF9A3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51100CFC299FE89C00AF9A3C /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		51100CF2299FE89A00AF9A3C /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51100CF5299FE89A00AF9A3C /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
-		51100CF7299FE89A00AF9A3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		51100CF7299FE89A00AF9A3C /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		51100CF9299FE89C00AF9A3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51100CFC299FE89C00AF9A3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				51100CF5299FE89A00AF9A3C /* ScrumdingerApp.swift */,
-				51100CF7299FE89A00AF9A3C /* ContentView.swift */,
+				51100CF7299FE89A00AF9A3C /* MeetingView.swift */,
 				51100CF9299FE89C00AF9A3C /* Assets.xcassets */,
 				51100CFB299FE89C00AF9A3C /* Preview Content */,
 			);
@@ -77,7 +77,6 @@
 				51100CEE299FE89A00AF9A3C /* Sources */,
 				51100CEF299FE89A00AF9A3C /* Frameworks */,
 				51100CF0299FE89A00AF9A3C /* Resources */,
-				51100D03299FE96F00AF9A3C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -133,33 +132,12 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		51100D03299FE96F00AF9A3C /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		51100CEE299FE89A00AF9A3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51100CF8299FE89A00AF9A3C /* ContentView.swift in Sources */,
+				51100CF8299FE89A00AF9A3C /* MeetingView.swift in Sources */,
 				51100CF6299FE89A00AF9A3C /* ScrumdingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
